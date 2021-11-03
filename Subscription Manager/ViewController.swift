@@ -61,19 +61,24 @@ class ViewController: UIViewController {
                        startDate: startDate.date,
                        endDate: endDate.date,
                        endDatepicker: endDate)
+        
+        
+    
+        
+        let alert = UIAlertController(title: "Saved Successfully",
+                                      message: "",
+                                      preferredStyle: .alert)
+        
 
-//      arrSubscription.append(Subscription(
-//            subscriptionName: sName.text!,
-//            startDate: startDate.date,
-//            endDate: endDate.date,
-//            price:sPrice.text!,
-//            monthOrYear: monthOrYear.selectedSegmentIndex,
-//            dayleft: Subscription.daysBetweenDates(endDate: endDate)
         
-//
-//        ))
-//
+        let cancelAction = UIAlertAction(title: "Done",
+                                         style: .cancel)
         
+        
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true)
+
         print(arrSubscription)
         navigationController?.popViewController(animated: true)
     }
@@ -85,10 +90,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-
-        
-        
-//    }
 
 }
 
