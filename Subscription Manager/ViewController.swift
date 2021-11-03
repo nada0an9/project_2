@@ -85,11 +85,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let tableVC = segue.destination as! SubscriptionTableTableViewController
-//        let lastSub = arrSubscription
-//        tableVC.yourArray = arrSubscription
-//
 
         
         
