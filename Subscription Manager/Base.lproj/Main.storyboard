@@ -208,11 +208,11 @@
                                         <rect key="frame" x="8" y="80" width="378" height="516"/>
                                         <subviews>
                                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="noy-Pm-oSz">
-                                                <rect key="frame" x="230" y="444" width="126" height="31"/>
+                                                <rect key="frame" x="229.5" y="444" width="126.5" height="31"/>
                                                 <color key="backgroundColor" red="0.94117647410000005" green="0.59000891430000002" blue="0.58119660279999996" alpha="0.86819639900000001" colorSpace="custom" customColorSpace="displayP3"/>
                                             </datePicker>
                                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="AO0-91-jak">
-                                                <rect key="frame" x="232" y="388" width="124" height="31"/>
+                                                <rect key="frame" x="231.5" y="388" width="124.5" height="31"/>
                                                 <color key="backgroundColor" red="0.94117647410000005" green="0.59000891430000002" blue="0.58119660279999996" alpha="0.86819639900000001" colorSpace="custom" customColorSpace="displayP3"/>
                                             </datePicker>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscription Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YoA-kQ-g6k">
