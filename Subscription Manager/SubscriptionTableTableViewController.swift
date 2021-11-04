@@ -44,7 +44,6 @@ class SubscriptionTableTableViewController: UITableViewController, UpdateDelegat
     override func viewWillAppear(_ animated: Bool) {
         tableView.reloadData()
         
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,7 +96,7 @@ class SubscriptionTableTableViewController: UITableViewController, UpdateDelegat
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellitem", for: indexPath)
         
         cell.textLabel?.text = yourArray[indexPath.row].subscriptionName
-        cell.detailTextLabel?.text = "Reminig Date : \(yourArray[indexPath.row].dayleft)"
+        cell.detailTextLabel?.text = "Reminig days : \(yourArray[indexPath.row].dayleft)"
         
         return cell
     }

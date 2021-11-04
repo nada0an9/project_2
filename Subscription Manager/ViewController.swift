@@ -54,15 +54,13 @@ class ViewController: UIViewController {
     var arrSubscription : [Subscription]!
    
     @IBAction func addSubscription(_ sender: Any) {
-        
-        delegate.inert(name: sName.text!,
+                delegate.inert(name: sName.text!,
                        price: sPrice.text!,
                        MorY: monthOrYear.selectedSegmentIndex,
                        startDate: startDate.date,
                        endDate: endDate.date,
                        endDatepicker: endDate)
-        
-        
+    
     
         
         let alert = UIAlertController(title: "Saved Successfully",
@@ -78,7 +76,6 @@ class ViewController: UIViewController {
         alert.addAction(cancelAction)
         
         present(alert, animated: true)
-
         print(arrSubscription)
         navigationController?.popViewController(animated: true)
     }

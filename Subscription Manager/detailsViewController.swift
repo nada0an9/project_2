@@ -3,9 +3,7 @@
 import UIKit
 
 protocol UpdateDelegate {
-    
     func updateDetails(name: String,price : String, MorY :Int, startDate :Date,endDate : Date , remainDay : Int)
-    
 }
 
 class detailsViewController: UIViewController {
@@ -18,8 +16,7 @@ class detailsViewController: UIViewController {
     var end_date = Date()
     var reminingDays = 0
     var index_path = 0
-    
-
+  
     @IBOutlet weak var sPRICE: UITextField!
     @IBOutlet weak var endDate: UIDatePicker!
     @IBOutlet weak var startDate: UIDatePicker!

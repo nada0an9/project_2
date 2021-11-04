@@ -2,7 +2,7 @@
 
 ## OverView
 
-### Subscription managers help you manage all your subscriptions in one place by keeping track of your apps and services subscriptions in the background and offering count to the remaining days to ending subscription will show to the user.
+- Subscription managers help you manage all your subscriptions in one place by keeping track of your apps and services subscriptions in the background and offering count to the remaining days to ending subscription will show to the user.
 
 ## Favorite Function
 
